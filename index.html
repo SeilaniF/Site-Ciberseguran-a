@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cibersegurança na City</title>
+</head>
+
+<body>
+    <header style="background-image: url('./assets/cibersegurançacadeador.png');">
+
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="./assets/Logotipo empresa de segurança e câmera de monitoramento (1).png" alt="logo">
+
+                </a>
+
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+
+
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1> Cibersegurança na City</h1>
+                    <p> Em um mundo cada vez mais digital, garantir que todos tenham acesso à internet de forma segura é
+                        essencial. Pensando nisso, desenvolvi este projeto, focado em orientar a população
+                        sobre cibersegurança. </p>
+                    <a href="contato.html" class="btn animate-btn"> Entre em Contato</a>
+                </div>
+
+            </section>
+        </div>
+
+    </header>
+    <section class="ciber-o-que">
+        <div class="container">
+            <div class="ciber-o-que-text">
+                <h3> O que é Cibersegurança</h3>
+                <p>Cibersegurança é a proteção de sistemas, redes e dados contra ataques e acessos não autorizados.</p>
+
+            </div>
+            <div class="ciber-o-que-img">
+                <img src="./assets/cibersegurançacadeador.png" alt="imagem cibersegurança">
+            </div>
+
+        </div>
+    </section>
+    <section class="tipos-golpes">
+        <div class="container">
+
+            <h3> Algus Tipos de Golpes </h3>
+            <p> Fique atento!</p>
+            <div class="cards">
+                <div class="cards-itens">
+                    <img src="./assets/golpe-boleto.jpg" alt="golpe boleto">
+                    <p class="name-user">Boleto Falso</p>
+                    <p class="golpes">O golpe do boleto falso ocorre quando golpistas geram boletos com valores
+                        alterados e os enviam para vítimas, geralmente se passando por empresas legítimas. A vítima, ao
+                        pagar o boleto, transfere dinheiro diretamente para os criminosos, sem perceber que o pagamento
+                        não foi destinado ao verdadeiro credor.</p>
+                </div>
+                <div class="cards-itens">
+                    <img src="./assets/golpe-idosos.jpg" alt="golpe idoso">
+                    <p class="name-user">Idosos </p>
+                    <p class="golpes">Golpes contra idosos são fraudes que visam explorar financeiramente pessoas mais
+                        velhas. Eles podem envolver telefonemas, e-mails ou mensagens falsas, onde os golpistas se
+                        passam por familiares, bancos ou autoridades para roubar dinheiro, dados pessoais ou cartões de
+                        crédito dos idosos.</p>
+                </div>
+                <div class="cards-itens">
+                    <img src="./assets/ciberbulling.png" alt="golpe ciberbulling">
+                    <p class="name-user"> Ciberbulling</p>
+                    <p class="golpes">O ciberbullying é o uso da internet e das redes sociais para intimidar, assediar
+                        ou humilhar outra pessoa, geralmente de forma repetitiva. Pode incluir mensagens ofensivas,
+                        difamação, exclusão virtual e até a divulgação de informações pessoais sem consentimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="quiz">
+        <div class="container">
+            <h3>Quiz de Cibersegurança</h3>
+            <p>Teste seus conhecimentos sobre cibersegurança!</p>
+    
+            <!-- Botão de iniciar quiz -->
+            <button id="start-btn" class="btn">Iniciar Quiz</button>
+    
+            <!-- Container do quiz -->
+            <div id="quiz-container" style="display:none;">
+                <div class="question-container">
+                    <p id="question">Carregando...</p>
+                    <div id="options"></div>
+                </div>
+                <button id="next-btn" class="btn">Próxima pergunta</button>
+            </div>
+    
+            <!-- Resultado -->
+            <div id="result" style="display:none;">
+                <h3>Você completou o quiz!</h3>
+                <p id="score">Sua pontuação: 0</p>
+                <button id="restart-btn" onclick="restartQuiz()" class="btn">Reiniciar</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+                <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://github.com/dashboard" target="_blank"> <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/seilani-fontes-da-silva-13577a292/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p> Desenvovido por Seilani Fontes </p>
+        </div>
+
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+
+
+</html>
