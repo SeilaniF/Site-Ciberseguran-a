@@ -15,7 +15,7 @@ header {
 }
 
 body {
-    background-color: #f1f6fc31;
+    background-color: #fcf1f931;
 }
 
 section,
@@ -30,7 +30,25 @@ h3 {
 }
 
 p {
+
     color: #0000009c;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Ajustando fontes para não ficarem grandes */
+body, h1, h2, h3, p {
+    font-size: 16px; /* Ajuste o tamanho das fontes conforme necessário */
+    line-height: 1.5;
+}
+
+/* Ajuste o tamanho das imagens para se ajustarem melhor */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -525,7 +543,9 @@ nav .close-icon {
     padding-right: 20px;
 
 }
-
+.sobre .sobre-text h3{
+    font-size: 50px;
+}
 .sobre .sobre-text p {
     margin: 29px 0;
     color: #000000a6;
@@ -699,7 +719,7 @@ nav .close-icon {
 }
 
 /* Outros estilos... */
-@media(max-width: 830px) {
+@media(max-width: 768px) {
 
     .ul {
         position: fixed;
