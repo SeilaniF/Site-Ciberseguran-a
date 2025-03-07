@@ -473,6 +473,7 @@ nav .close-icon {
 }
 
 .footer {
+
     background-color: rgb(49, 46, 46) !important;
     height: 150px;
     text-align: center;
@@ -482,6 +483,7 @@ nav .close-icon {
     width: 100%;
     position: relative;
     margin-bottom: 0px;
+   
 }
 
 .footer .links a {
@@ -533,8 +535,7 @@ nav .close-icon {
 .sobre .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .sobre .sobre-text {
@@ -631,6 +632,14 @@ nav .close-icon {
 
 }
 
+#footer-sobre{
+    position: relative;
+    width: 100%;
+}
+.main-content {
+    flex: 1;
+    margin-top: 80px;
+}
 /*  footer fique no lugar */
 
 
@@ -815,6 +824,8 @@ nav .close-icon {
 
     }
 
+    
+
     .sobre .container {
         flex-direction: column-reverse;
     }
@@ -822,6 +833,7 @@ nav .close-icon {
     .sobre .sobre-img,
     .sobre .sobre-text {
         width: 100%;
+   
     }
 
     .sobre .sobre-text {
