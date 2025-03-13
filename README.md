@@ -11,6 +11,7 @@ CSS
 
 JavaScript
 
+<img src="https://github.com/SeilaniF/Site-Ciberseguranca/blob/master/assets/siteciberresp.PNG?raw=true">
 Como Executar o Projeto
 
 Para rodar o site localmente, siga os passos abaixo:
